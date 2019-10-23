@@ -10,6 +10,11 @@ class Owner
     @pets = { :dogs => [], :cats => [] }
   end
 
+def initialize(owner_name)
+  @owner_name = Owner
+end
+
+
   def self.all
     @@all
   end
