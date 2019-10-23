@@ -50,8 +50,8 @@ end 	  attr_reader :species
     pets[:cats].map {|cat| cat.mood = "happy"}
   end
 
-  def feed_fish
-    pets[:fishes].map {|fish| fish.mood = "happy"}
+  def feed_cat
+    pets[:cats].map {|cat| cat.mood = "happy"}
   end
 
   def sell_pets
